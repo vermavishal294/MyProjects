@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Car</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Add New Car</h2>
+        <form id="create-product-form">
+            <input type="text" id="car-title" placeholder="Car Title" required>
+            <textarea id="car-description" placeholder="Car Description" required></textarea>
+            <input type="file" id="car-images" multiple required>
+            <input type="text" id="car-tags" placeholder="Tags (comma-separated)">
+            <button type="submit" class="submit-btn">Create Car</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
